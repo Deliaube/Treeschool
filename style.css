@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(255, 230, 209);
+}
+
+a:link {
+    color: rgb(178, 121, 24);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(91, 187, 28);
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(219, 32, 163);
+  }
+
+  @media screen and (max-width: 992px) {
+    body {
+      background-color:rgb(255, 216, 209);
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: rgb(255, 241, 209);
+    }
+  }
+
+  
+button{
+    color: chocolate;
+}
+
+
+nav {
+   /* border-style: dotted;border-color: orange; */
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav.container{
+    /*border-style: dotted;border-color: green; */
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+ul.menu {
+    /* border-style: dotted;border-color: blueviolet; */
+    list-style: none;
+    display: flex;
+   
+}
+
+li{
+    padding: 3px;
+}
+
+.module {
+
+ /* border-style: dotted;border-color: red; */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.input-group {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px; 
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+

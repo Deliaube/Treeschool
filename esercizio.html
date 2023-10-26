@@ -3,23 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Esercizio </title>
 </head>
 <body>
 
 <header>
-
-    <div> <!--MENU, TITOLO-->
-      <nav>
-        <h1 style="color: chocolate;">Blogloland AGGIORNATO </h1>
-        <a href="/home/">HOME</a> |
-        <a href="/contact/">CONTACT</a> |
-        <a href="/aboutus/">JABOUT US</a> |
+   <!--MENU, TITOLO-->
+      <nav class="container">
+        <h1>Blogloland  </h1>
+    <ul class="menu">
+       <li> <a href="/home/">HOME</a> </li>
+       <li> <a href="/contact/">CONTACT</a> </li>
+       <li> <a href="/aboutus/">ABOUT US</a> </li>
+    </ul>
       </nav>
-    </div>
+   
 </header>
 
-    <main>
+<main>
 
 
 <center>
@@ -48,16 +50,17 @@
         </li>
     </ul>
     </caption>
+    
     <thead>
     <tr><th>Guide Lines</th><th>Moderators</th></tr> <!-- aggiungi link a pdf-->
     </thead>
     <tfoot>
     <tr>
         <td>
-     <button style="color: chocolate;"> Faq</button>
+     <button > Faq</button>
         </td>
         <td>
-     <button style="color: chocolate;">join us </button>
+     <button >join us </button>
         </td>
     </tr>
     </tfoot>
@@ -67,16 +70,24 @@
 </table>
 
 <hr>
- <form>
+
+ <form class="module">
     <fieldset>
         <legend>Sign in</legend>
+        <div>
         <label for="name"> Nome </label>
-        <input type="text" id="dati" name="Nome">
+        <input type="text" id="dati" name="Nome" placeholder="il tuo nome più bello">
+    </div>
+    <br>
+    <div>
         <label> Mail </label>
-        <input type="text" id="dati" name="dati">
+        <input type="text" id="dati" name="dati" placeholder="il tuo indirizzo mail">
+    </div>
     </fieldset>
+<div>
     <input type="reset" value="Delete"> 
     <input type="submit" value="Send">
+</div>
  </form>
 
 </main>
@@ -95,7 +106,11 @@
         <a href="#" target="_blank"> t</a>
        </em> </center> 
     </div>
-         
+         <div> 
+            <small>
+             <p>Tutti i diritti riservati alla setta Blogoland </p>
+           </small> 
+        </div>
 </footer>
 
 </body>
